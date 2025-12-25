@@ -19,7 +19,8 @@
   font-size: 4.5em;
 }
 .hero-section .hero p {
-  padding-left: 0.2em;
+  padding-top: 0.5em;
+  padding-left: 0.3em;
   margin: 0;
   font-size: 1.3em;
 }
@@ -30,6 +31,6 @@
   }
 
   .hero-section .hero p {
-    font-size: 1.05em;
+    font-size: 1.15em;
   }
 }
