@@ -40,7 +40,7 @@
 
 @media (max-width: 600px) {
   .hero-section img {
-    position: fixed;
+    position: absolute;
     transform: translateX(-1.25em) translateY(-2.5em);
   }
 }
