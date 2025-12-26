@@ -8,14 +8,16 @@
   align-items: center;
   gap: 0rem;
 
+  font-size: clamp(12px, 2.2vw, 16px);
+
   font-family: "Oxanium", sans-serif;
 }
 
 .hero-section img {
-  width: 112px;
-  height: 112px;
+  width: 7em;
+  height: 7em;
 
-  transform: translateX(-20px) translateY(16px);
+  transform: translateX(-1.25em) translateY(1em);
 }
 
 .hero-section .hero {
@@ -34,11 +36,4 @@
   padding-left: 0.3em;
   margin: 0;
   font-size: 1.3em;
-}
-
-@media (max-width: 600px) {
-  .hero-section {
-    transform: scale(0.75);
-    transform-origin: top center;
-  }
 }
