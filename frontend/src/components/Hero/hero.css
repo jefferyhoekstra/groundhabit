@@ -25,17 +25,20 @@
   flex-direction: column;
   padding-top: 9.9em;
   text-shadow: 0px 10px 6px rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .hero-section .hero h1 {
   margin: 0;
   font-size: 4.5em;
+  color: white;
 }
 .hero-section .hero p {
   padding-top: 0.5em;
   padding-left: 0.3em;
   margin: 0;
   font-size: 1.3em;
+  color: white;
 }
 
 @media (max-width: 600px) {
