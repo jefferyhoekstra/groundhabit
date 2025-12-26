@@ -41,6 +41,6 @@
 @media (max-width: 600px) {
   .hero-section img {
     position: absolute;
-    transform: translateX(-1.25em) translateY(-3em);
+    transform: translateX(-1.25em) translateY(-2, 5em);
   }
 }
