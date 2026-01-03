@@ -1,5 +1,17 @@
 // IMPORT
+import {
+  Link,
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Outlet,
+  Navigate,
+} from "react-router-dom";
+
 import Hero from "./components/Hero/Hero";
+import SocialApp from "./components/SocialApp/SocialApp";
+import Form from "./components/Form/Form";
+import AppLayout from "./AppLayout";
 
 // IMAGE
 
@@ -10,13 +22,11 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <section className="app-section">
-        <section className="app_header">
-          <Hero />
-        </section>
-        <section className="app_main"></section>
-        <section className="app_footer"></section>
-      </section>
+      <Router>
+        <Routes>
+          <Route element={AppLayout}></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
